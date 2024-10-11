@@ -1,0 +1,31 @@
+.boxalert__container{
+    margin: 154px auto;
+}
+.box{
+    background: var(--color-gr);
+    padding: 57px 37px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box__left h4 ,.box__left small{
+    color: black !important;
+}
+/* Rectangle 22 */
+@media screen and (max-width: 1024px) {
+    .boxalert__container{
+        margin: 90px auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .boxalert__container{
+        margin: 60px auto;
+    }
+    .box{
+         padding: 10px 15px;
+         flex-direction: column;
+         gap: 1rem;
+    }
+    
+}

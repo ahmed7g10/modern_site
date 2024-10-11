@@ -1,0 +1,30 @@
+.access__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    place-items: center;
+    overflow: hidden;
+    
+}
+.access__right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    justify-content: center;
+    gap:.5rem
+}
+.access__right p{
+    font-size: 16px;
+    margin: 1rem 0 2rem;
+}
+.blue__a{
+    color: #71E5FF ;
+}
+.blue__a:hover{
+    color: #0e8fac ;
+}
+@media screen and (max-width:1024px){
+    .access__container{
+        grid-template-columns: 1fr;
+    }
+}

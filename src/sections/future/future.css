@@ -1,0 +1,37 @@
+.future__container{
+    display: grid;
+    margin: 201px auto 2rem;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+}
+
+.future__left{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.future__center{
+    display: grid;
+    gap: 2rem;
+}
+.future__card{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 20%;
+}
+.orange__a{
+    font-size: 16px;
+    color: #FF8A71;
+    transition: 0.5s;
+}
+
+.orange__a:hover{
+    color: rgb(236, 188, 148);
+}
+@media screen and (max-width:1024px) {
+    .future__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 5rem auto 1rem;
+    }
+}
